@@ -1,0 +1,27 @@
+data:
+  train_path: data/train.csv
+  store_path: data/store.csv
+  test_path: data/test.csv
+  sample_train_path: data/sample/train.csv
+  sample_store_path: data/sample/store.csv
+
+features:
+  target: Sales
+  lags: [1, 7, 14, 30]
+  rolling_windows: [7, 14, 30]
+
+model:
+  test_days: 28
+  random_state: 42
+
+paths:
+  model_dir: models
+  model_path: models/demand_model.joblib
+  metrics_path: models/metrics.json
+  predictions_path: models/holdout_predictions.csv
+  store_metrics_path: models/store_metrics.csv
+  feature_importance_path: models/feature_importance.csv
+  future_forecast_path: models/future_forecast.csv
+  kaggle_submission_path: models/kaggle_submission.csv
+  baseline_comparison_path: models/baseline_comparison.csv
+  plots_dir: docs/assets/plots
