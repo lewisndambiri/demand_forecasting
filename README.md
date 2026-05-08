@@ -134,7 +134,6 @@ make dashboard
 
 ```text
 demand-forecasting/
-├── .github/workflows/ci.yml
 ├── .streamlit/config.toml
 ├── app/
 │   └── dashboard.py
@@ -147,9 +146,6 @@ demand-forecasting/
 │   ├── DATA_GUIDE.md
 │   ├── DEPLOYMENT.md
 │   ├── EDA_REPORT.md
-│   ├── MODEL_CARD.md
-│   ├── MODEL_EXPLAINER.md
-│   ├── PROJECT_STORY.md
 │   └── RESULTS.md
 ├── src/
 ├── tests/
