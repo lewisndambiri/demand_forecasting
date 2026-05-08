@@ -264,8 +264,6 @@ Good future improvements:
 - [docs/DATA_GUIDE.md](docs/DATA_GUIDE.md): data download and setup
 - [docs/EDA_REPORT.md](docs/EDA_REPORT.md): exploratory analysis and plots
 - [docs/RESULTS.md](docs/RESULTS.md): metrics and interpretation
-- [docs/MODEL_CARD.md](docs/MODEL_CARD.md): intended use and limitations
-- [docs/MODEL_EXPLAINER.md](docs/MODEL_EXPLAINER.md): XGBoost and model choice
 - [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md): Docker and Streamlit deployment
 - [TECHNICAL_NOTES.md](TECHNICAL_NOTES.md): implementation details
 
